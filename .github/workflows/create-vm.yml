@@ -58,7 +58,7 @@ jobs:
             --shape "VM.Standard.A1.Flex" \
             --shape-config '{"ocpus":4,"memoryInGBs":24}' \
             --subnet-id "$SUBNET_ID" \
-            --image-id ocid1.image.oc1.ap-tokyo-1.aaaaaaaad6h2zr7nqf6x6m4l6r6v6v6v6v6v6v6v6v6v6v6v6v6v \
+            --image-id ocid1.image.oc1.ap-tokyo-1.aaaaaaaapud7o6kkjplvam4qxm3nqowklkunidcth43gs6cdgj5ud3wuesrq \
             --ssh-authorized-keys-file "/home/runner/my_ssh_key.pub" \
             --assign-public-ip true \
             --display-name "coolify-vm" \
