@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 env:
   COMPARTMENT_ID: ${{ secrets.OCI_COMPARTMENT_ID }}
-  IMAGE_ID: "ocid1.image.oc1.ap-tokyo-1.aaaaaaaad6h2zr7nqf6x6m4l6r6v6v6v6v6v6v6v6v6v6v6v6v6v"
+  IMAGE_ID: "ocid1.image.oc1.ap-tokyo-1.aaaaaaaapud7o6kkjplvam4qxm3nqowklkunidcth43gs6cdgj5ud3wuesrq"
   SUBNET_ID: ${{ secrets.OCI_SUBNET_ID }}
   AD_NAME: "yNbO:AP-TOKYO-1-AD-1"
   OCI_CLI_REGION: "ap-tokyo-1"
